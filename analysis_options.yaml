@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # Flutter 3.47+ déprécie package:flutter/material.dart au profit de
+    # material_ui, mais printing et flutter_localizations l'utilisent encore.
+    # On reste sur la même bibliothèque qu'eux pour éviter deux Material.
+    deprecated_member_use: ignore
+  exclude:
+    - build/**
+    - android/**
+    - ios/**

@@ -1,0 +1,263 @@
+{
+  "companyName": "Oise Jardins Services",
+  "demoAgentId": "a1",
+  "tasks": [
+    "Tonte",
+    "Taille des haies",
+    "Désherbage des allées",
+    "Ramassage des feuilles",
+    "Évacuation des déchets verts"
+  ],
+  "examplePhotos": {
+    "before": [
+      "assets/photos/pelouse_avant.jpg",
+      "assets/photos/haie_avant.jpg"
+    ],
+    "after": [
+      "assets/photos/pelouse_apres.jpg",
+      "assets/photos/haie_apres.jpg"
+    ]
+  },
+  "agents": [
+    {
+      "id": "a1",
+      "firstName": "Karim",
+      "lastInitial": "B",
+      "phone": "06 12 48 73 20"
+    },
+    {
+      "id": "a2",
+      "firstName": "Sofia",
+      "lastInitial": "M",
+      "phone": "06 27 91 35 64"
+    },
+    {
+      "id": "a3",
+      "firstName": "Julien",
+      "lastInitial": "D",
+      "phone": "07 81 22 49 17"
+    },
+    {
+      "id": "a4",
+      "firstName": "Aminata",
+      "lastInitial": "K",
+      "phone": "06 45 73 18 92"
+    },
+    {
+      "id": "a5",
+      "firstName": "Thomas",
+      "lastInitial": "L",
+      "phone": "06 58 30 66 41"
+    },
+    {
+      "id": "a6",
+      "firstName": "Nadia",
+      "lastInitial": "R",
+      "phone": "07 63 14 85 29"
+    }
+  ],
+  "sites": [
+    {
+      "id": "s1",
+      "clientName": "Copropriété Le Parc Condé",
+      "address": "18 avenue de Condé",
+      "city": "Chantilly",
+      "instructions": "Portail code 7731. Benne à déchets verts derrière le bâtiment C."
+    },
+    {
+      "id": "s2",
+      "clientName": "M. et Mme Lefèvre",
+      "address": "6 chemin des Bruyères",
+      "city": "Lamorlaye",
+      "instructions": "Chien dans le jardin : sonner avant d'entrer. Robinet extérieur à gauche du garage."
+    },
+    {
+      "id": "s3",
+      "clientName": "Zone d'activité du Chemin Vert",
+      "address": "Rue des Artisans",
+      "city": "Creil",
+      "instructions": "Accès poids lourds côté nord. Ne pas tondre pendant les livraisons (10 h - 11 h)."
+    },
+    {
+      "id": "s4",
+      "clientName": "Mairie annexe de Gouvieux",
+      "address": "2 place de l'Église",
+      "city": "Gouvieux",
+      "instructions": "Se présenter à l'accueil. Massifs fleuris : désherbage manuel uniquement."
+    },
+    {
+      "id": "s5",
+      "clientName": "Copropriété Les Jardins de Senlis",
+      "address": "31 rue de Meaux",
+      "city": "Senlis",
+      "instructions": "Code portillon 2468. Arrosage automatique coupé le matin."
+    },
+    {
+      "id": "s6",
+      "clientName": "Mme Garnier",
+      "address": "11 rue du Moulin",
+      "city": "Gouvieux",
+      "instructions": "Grand terrain (4 000 m²). Clé du cabanon dans la boîte aux lettres."
+    },
+    {
+      "id": "s7",
+      "clientName": "Entrepôt Logistique Nord",
+      "address": "ZA des Marches, allée 4",
+      "city": "Creil",
+      "instructions": "Gilet obligatoire sur le site. Badge à l'accueil sécurité."
+    },
+    {
+      "id": "s8",
+      "clientName": "Copropriété Résidence du Lys",
+      "address": "4 avenue du Bouteiller",
+      "city": "Chantilly",
+      "instructions": "Haies côté rue à 1,80 m maximum. Déchets verts à évacuer le jour même."
+    },
+    {
+      "id": "s9",
+      "clientName": "M. Dubreuil",
+      "address": "27 route de Crépy",
+      "city": "Senlis",
+      "instructions": "Verger : ne pas tondre sous les pommiers. Portail toujours refermé (chevaux)."
+    },
+    {
+      "id": "s10",
+      "clientName": "Copropriété Les Hauts de Lamorlaye",
+      "address": "9 allée des Chênes",
+      "city": "Lamorlaye",
+      "instructions": "Prévenir le gardien (06 70 11 22 33) en arrivant. Souffleur après 9 h seulement."
+    }
+  ],
+  "interventions": [
+    {
+      "id": "i1",
+      "agentId": "a1",
+      "siteId": "s1",
+      "startOffsetMin": -180,
+      "durationMin": 90,
+      "status": "done",
+      "arrivedOffsetMin": -183,
+      "leftOffsetMin": -98,
+      "allTasksDone": true,
+      "photosBefore": [
+        "assets/photos/pelouse_avant.jpg"
+      ],
+      "photosAfter": [
+        "assets/photos/pelouse_apres.jpg"
+      ],
+      "comment": "Haie côté rue taillée à 1,80 m. Prévoir un désherbage du parking la semaine prochaine."
+    },
+    {
+      "id": "i2",
+      "agentId": "a1",
+      "siteId": "s2",
+      "startOffsetMin": 30,
+      "durationMin": 75,
+      "status": "planned"
+    },
+    {
+      "id": "i3",
+      "agentId": "a1",
+      "siteId": "s3",
+      "startOffsetMin": 240,
+      "durationMin": 120,
+      "status": "planned"
+    },
+    {
+      "id": "i4",
+      "agentId": "a2",
+      "siteId": "s4",
+      "startOffsetMin": -240,
+      "durationMin": 120,
+      "status": "done",
+      "arrivedOffsetMin": -236,
+      "leftOffsetMin": -118,
+      "allTasksDone": true,
+      "photosBefore": [
+        "assets/photos/haie_avant.jpg"
+      ],
+      "photosAfter": [
+        "assets/photos/haie_apres.jpg"
+      ]
+    },
+    {
+      "id": "i5",
+      "agentId": "a2",
+      "siteId": "s5",
+      "startOffsetMin": -30,
+      "durationMin": 120,
+      "status": "onSite",
+      "arrivedOffsetMin": -27,
+      "tasksDone": 2
+    },
+    {
+      "id": "i6",
+      "agentId": "a2",
+      "siteId": "s10",
+      "startOffsetMin": 150,
+      "durationMin": 90,
+      "status": "planned"
+    },
+    {
+      "id": "i7",
+      "agentId": "a3",
+      "siteId": "s7",
+      "startOffsetMin": -40,
+      "durationMin": 90,
+      "status": "planned"
+    },
+    {
+      "id": "i8",
+      "agentId": "a3",
+      "siteId": "s8",
+      "startOffsetMin": 120,
+      "durationMin": 90,
+      "status": "planned"
+    },
+    {
+      "id": "i9",
+      "agentId": "a4",
+      "siteId": "s9",
+      "startOffsetMin": 10,
+      "durationMin": 60,
+      "status": "enRoute"
+    },
+    {
+      "id": "i10",
+      "agentId": "a4",
+      "siteId": "s10",
+      "startOffsetMin": -200,
+      "durationMin": 90,
+      "status": "done",
+      "arrivedOffsetMin": -198,
+      "leftOffsetMin": -105,
+      "allTasksDone": true
+    },
+    {
+      "id": "i11",
+      "agentId": "a6",
+      "siteId": "s6",
+      "startOffsetMin": -60,
+      "durationMin": 150,
+      "status": "onSite",
+      "arrivedOffsetMin": -57,
+      "tasksDone": 3
+    },
+    {
+      "id": "i12",
+      "agentId": "a6",
+      "siteId": "s4",
+      "startOffsetMin": 180,
+      "durationMin": 90,
+      "status": "planned"
+    }
+  ],
+  "absences": [
+    {
+      "agentId": "a5",
+      "dayOffset": 0,
+      "reason": "Maladie",
+      "replacementAgentId": "a6"
+    }
+  ]
+}

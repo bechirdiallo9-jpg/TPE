@@ -1,0 +1,263 @@
+{
+  "companyName": "Oise Propreté",
+  "demoAgentId": "a1",
+  "tasks": [
+    "Sols aspirés et lavés",
+    "Sanitaires désinfectés",
+    "Poubelles vidées",
+    "Vitres des parties communes",
+    "Ascenseur nettoyé"
+  ],
+  "examplePhotos": {
+    "before": [
+      "assets/photos/carrelage_avant.jpg",
+      "assets/photos/vitres_avant.jpg"
+    ],
+    "after": [
+      "assets/photos/carrelage_apres.jpg",
+      "assets/photos/vitres_apres.jpg"
+    ]
+  },
+  "agents": [
+    {
+      "id": "a1",
+      "firstName": "Karim",
+      "lastInitial": "B",
+      "phone": "06 12 48 73 20"
+    },
+    {
+      "id": "a2",
+      "firstName": "Sofia",
+      "lastInitial": "M",
+      "phone": "06 27 91 35 64"
+    },
+    {
+      "id": "a3",
+      "firstName": "Julien",
+      "lastInitial": "D",
+      "phone": "07 81 22 49 17"
+    },
+    {
+      "id": "a4",
+      "firstName": "Aminata",
+      "lastInitial": "K",
+      "phone": "06 45 73 18 92"
+    },
+    {
+      "id": "a5",
+      "firstName": "Thomas",
+      "lastInitial": "L",
+      "phone": "06 58 30 66 41"
+    },
+    {
+      "id": "a6",
+      "firstName": "Nadia",
+      "lastInitial": "R",
+      "phone": "07 63 14 85 29"
+    }
+  ],
+  "sites": [
+    {
+      "id": "s1",
+      "clientName": "Résidence Les Tilleuls",
+      "address": "12 avenue du Maréchal Joffre",
+      "city": "Chantilly",
+      "instructions": "Code portail 4512B. Local ménage au sous-sol, clé dans la boîte à code (1984)."
+    },
+    {
+      "id": "s2",
+      "clientName": "Cabinet médical du Lys",
+      "address": "3 rue du Connétable",
+      "city": "Chantilly",
+      "instructions": "Passer après 12 h 30. Salle d'attente en priorité. Produit virucide uniquement (armoire bleue)."
+    },
+    {
+      "id": "s3",
+      "clientName": "Bureaux Verdier Conseil",
+      "address": "25 rue de la République",
+      "city": "Senlis",
+      "instructions": "Badge à récupérer à l'accueil. Ne pas déplacer les dossiers sur les bureaux."
+    },
+    {
+      "id": "s4",
+      "clientName": "École maternelle Les Coquelicots",
+      "address": "8 rue Saint-Pierre",
+      "city": "Senlis",
+      "instructions": "Après le départ des enfants. Clés chez la gardienne, Mme Lopez (loge à droite)."
+    },
+    {
+      "id": "s5",
+      "clientName": "Salle de sport FitOise",
+      "address": "40 boulevard Biondi",
+      "city": "Creil",
+      "instructions": "Vestiaires en premier. Code alarme 2207, à désactiver en entrant."
+    },
+    {
+      "id": "s6",
+      "clientName": "Résidence Le Clos des Aigles",
+      "address": "5 allée des Pins",
+      "city": "Gouvieux",
+      "instructions": "Code bâtiment A : 1290. Local poubelles derrière le bâtiment B."
+    },
+    {
+      "id": "s7",
+      "clientName": "Centre dentaire Sainte-Anne",
+      "address": "17 rue Henri Barbusse",
+      "city": "Creil",
+      "instructions": "Entrée par la porte de service. Ne pas toucher au matériel des cabinets."
+    },
+    {
+      "id": "s8",
+      "clientName": "Résidence du Golf",
+      "address": "2 route de Chantilly",
+      "city": "Lamorlaye",
+      "instructions": "Interphone « Gardien ». Aspirateur dans le placard du hall."
+    },
+    {
+      "id": "s9",
+      "clientName": "Agence Oise Habitat",
+      "address": "9 place de la Halle",
+      "city": "Senlis",
+      "instructions": "Avant l'ouverture (9 h). Vitrine côté rue à faire chaque passage."
+    },
+    {
+      "id": "s10",
+      "clientName": "Cabinet de kinésithérapie Lamorlaye",
+      "address": "14 rue du Général Leclerc",
+      "city": "Lamorlaye",
+      "instructions": "Tables de soin : lingettes désinfectantes. Clé sous la responsabilité du cabinet."
+    }
+  ],
+  "interventions": [
+    {
+      "id": "i1",
+      "agentId": "a1",
+      "siteId": "s1",
+      "startOffsetMin": -180,
+      "durationMin": 90,
+      "status": "done",
+      "arrivedOffsetMin": -183,
+      "leftOffsetMin": -98,
+      "allTasksDone": true,
+      "photosBefore": [
+        "assets/photos/carrelage_avant.jpg"
+      ],
+      "photosAfter": [
+        "assets/photos/carrelage_apres.jpg"
+      ],
+      "comment": "RAS. Tache tenace sur la moquette de l'entrée, signalée au gardien."
+    },
+    {
+      "id": "i2",
+      "agentId": "a1",
+      "siteId": "s2",
+      "startOffsetMin": 30,
+      "durationMin": 75,
+      "status": "planned"
+    },
+    {
+      "id": "i3",
+      "agentId": "a1",
+      "siteId": "s3",
+      "startOffsetMin": 240,
+      "durationMin": 120,
+      "status": "planned"
+    },
+    {
+      "id": "i4",
+      "agentId": "a2",
+      "siteId": "s4",
+      "startOffsetMin": -240,
+      "durationMin": 120,
+      "status": "done",
+      "arrivedOffsetMin": -236,
+      "leftOffsetMin": -118,
+      "allTasksDone": true,
+      "photosBefore": [
+        "assets/photos/vitres_avant.jpg"
+      ],
+      "photosAfter": [
+        "assets/photos/vitres_apres.jpg"
+      ]
+    },
+    {
+      "id": "i5",
+      "agentId": "a2",
+      "siteId": "s5",
+      "startOffsetMin": -30,
+      "durationMin": 120,
+      "status": "onSite",
+      "arrivedOffsetMin": -27,
+      "tasksDone": 2
+    },
+    {
+      "id": "i6",
+      "agentId": "a2",
+      "siteId": "s10",
+      "startOffsetMin": 150,
+      "durationMin": 90,
+      "status": "planned"
+    },
+    {
+      "id": "i7",
+      "agentId": "a3",
+      "siteId": "s7",
+      "startOffsetMin": -40,
+      "durationMin": 90,
+      "status": "planned"
+    },
+    {
+      "id": "i8",
+      "agentId": "a3",
+      "siteId": "s8",
+      "startOffsetMin": 120,
+      "durationMin": 90,
+      "status": "planned"
+    },
+    {
+      "id": "i9",
+      "agentId": "a4",
+      "siteId": "s9",
+      "startOffsetMin": 10,
+      "durationMin": 60,
+      "status": "enRoute"
+    },
+    {
+      "id": "i10",
+      "agentId": "a4",
+      "siteId": "s10",
+      "startOffsetMin": -200,
+      "durationMin": 90,
+      "status": "done",
+      "arrivedOffsetMin": -198,
+      "leftOffsetMin": -105,
+      "allTasksDone": true
+    },
+    {
+      "id": "i11",
+      "agentId": "a6",
+      "siteId": "s6",
+      "startOffsetMin": -60,
+      "durationMin": 150,
+      "status": "onSite",
+      "arrivedOffsetMin": -57,
+      "tasksDone": 3
+    },
+    {
+      "id": "i12",
+      "agentId": "a6",
+      "siteId": "s4",
+      "startOffsetMin": 180,
+      "durationMin": 90,
+      "status": "planned"
+    }
+  ],
+  "absences": [
+    {
+      "agentId": "a5",
+      "dayOffset": 0,
+      "reason": "Maladie",
+      "replacementAgentId": "a6"
+    }
+  ]
+}
